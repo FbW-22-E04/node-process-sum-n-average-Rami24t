@@ -11,3 +11,6 @@ console.log(
 (process.argv.slice(3).reduce((avg, n) => avg + Number(n), 0) / process.argv.slice(3).length).toString()
 );
 }
+else {
+    console.log('I cannot calculate that, please type either "sum" (to calculate the sum) or "avg" (To calculate the Average)');
+}
